@@ -5,8 +5,10 @@
 ---
 
 ### 🔗 Connect with me
-[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30"/>](https://linkedin.com/in/shashwatxd)
-[<img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg](https://www.pngmart.com/files/23/Github-Logo-PNG-Photo-1.png)" width="30"/>](https://github.com/shashwatxd)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shashwatxd)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/shashwat.)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_shashwat.singh__)
+
 
 
 
