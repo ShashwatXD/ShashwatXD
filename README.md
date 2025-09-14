@@ -6,7 +6,8 @@
 
 ### 🔗 Connect with me
 [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" />](https://linkedin.com/in/shashwatxd)
-[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30"/>](https://github.com/shashwatxd)
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="30"/>](https://github.com/shashwatxd)
+
 
 
 ---
