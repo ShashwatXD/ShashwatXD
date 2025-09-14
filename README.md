@@ -6,7 +6,7 @@
 
 ### 🔗 Connect with me
 [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30"/>](https://linkedin.com/in/shashwatxd)
-[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="30"/>](https://github.com/shashwatxd)
+[<img src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg](https://www.pngmart.com/files/23/Github-Logo-PNG-Photo-1.png)" width="30"/>](https://github.com/shashwatxd)
 
 
 
