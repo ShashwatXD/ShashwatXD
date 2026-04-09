@@ -25,4 +25,9 @@
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
-![Profile views](https://komarev.com/ghpvc/?username=shashwatxd&color=blue)
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shashwatxd&style=flat-square&color=blue" />
+</p>
