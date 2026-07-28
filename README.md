@@ -1,6 +1,6 @@
 # Hey, I am Shashwat
 
-**Flutter Developer | Backend | Open Source**
+Open Source**
 
 ---
 
