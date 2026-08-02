@@ -2,7 +2,6 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    # Runs at 18:00 UTC every day
     - cron: "0 18 * * *"
   workflow_dispatch:
   push:
@@ -23,6 +22,40 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Remove Stars and Forks from SVGs
+        run: |
+          python3 -c "
+          import xml.etree.ElementTree as ET
+          import glob
+          ET.register_namespace('', 'http://www.w3.org/2000/svg')
+          def clean_svg(filepath):
+              try:
+                  tree = ET.parse(filepath)
+                  root = tree.getroot()
+                  to_remove = []
+                  for g in root.findall('.//{http://www.w3.org/2000/svg}g'):
+                      transform = g.attrib.get('transform', '')
+                      if 'translate(608' in transform or 'translate(736' in transform:
+                          to_remove.append(g)
+                  for text in root.findall('.//{http://www.w3.org/2000/svg}text'):
+                      x = text.attrib.get('x', '')
+                      if x in ['650', '772']:
+                          to_remove.append(text)
+                  removed_count = 0
+                  for el in to_remove:
+                      for parent in root.findall('.//*'):
+                          if el in list(parent):
+                              parent.remove(el)
+                              removed_count += 1
+                              break
+                  if removed_count > 0:
+                      tree.write(filepath, encoding='utf-8', xml_declaration=True)
+                      print(f'Cleaned {filepath}: removed {removed_count} elements')
+              except Exception as e:
+                  print(f'Error cleaning {filepath}: {e}')
+          for f in glob.glob('profile-3d-contrib/*.svg'):
+              clean_svg(f)
+          "
       - name: Commit & Push
         run: |
           git config user.name github-actions
