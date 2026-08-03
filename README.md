@@ -1,6 +1,6 @@
 # Hey, I am Shashwat
 
-## Open Source 🚀
+## Open Source  🚀
 
 ---
 
